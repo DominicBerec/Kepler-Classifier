@@ -11,6 +11,15 @@ using NASA Kepler mission data.
 | Random Forest | 91.9% |
 | Logistic Regression | 83.5% |
 
+## 📈 Visualizations
+
+### XGBoost Feature Importance
+![Feature Importance](kepler_feature_importance.png)
+
+Planet radius (`koi_prad`) and signal-to-noise ratio (`koi_model_snr`)
+are the strongest predictors — consistent with established astrophysical
+understanding of what distinguishes confirmed planets from false positives.
+
 ## 📊 Dataset
 - Source: NASA Kepler Object of Interest dataset via Kaggle
 - 7,000+ candidate objects
